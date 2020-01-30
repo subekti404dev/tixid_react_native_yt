@@ -10,7 +10,7 @@ class App extends React.Component {
       <Router>
         <Scene key={'root'} hideNavBar>
           <Scene key={'loginPage'} component={LoginPage} />
-          <Scene key={'mainPage'} component={MainPage} />
+          <Scene key={'mainPage'} component={MainPage} initial />
         </Scene>
       </Router>
     );
