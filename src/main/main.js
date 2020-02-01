@@ -7,6 +7,7 @@ import {Ticket} from '../ticket/ticket';
 import BottomNavigation, {
   FullTab,
 } from 'react-native-material-bottom-navigation';
+import { Header } from './header';
 
 export class MainPage extends Component {
   state = {
@@ -57,6 +58,7 @@ export class MainPage extends Component {
   render() {
     return (
       <SafeAreaView style={{flex: 1}}>
+        <Header/>
         <View style={{flex: 1}}>
           <this.state.activeComponent />
         </View>
