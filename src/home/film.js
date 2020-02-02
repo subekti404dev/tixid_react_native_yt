@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, Dimensions, Image} from 'react-native';
-import {Icons} from '../../assets';
+import {Assets} from '../../assets';
 import Carousel from 'react-native-snap-carousel';
 
 const DeviceWidth = Dimensions.get('window').width;
@@ -12,19 +12,19 @@ export class Film extends Component {
   film = [
     {
       title: 'Enter The Fat Dragon',
-      poster: Icons.poster.poster_1,
+      poster: Assets.poster.poster_1,
     },
     {
       title: 'Bad Boys',
-      poster: Icons.poster.poster_2,
+      poster: Assets.poster.poster_2,
     },
     {
       title: 'Birds of Prey',
-      poster: Icons.poster.poster_3,
+      poster: Assets.poster.poster_3,
     },
     {
       title: '1917',
-      poster: Icons.poster.poster_4,
+      poster: Assets.poster.poster_4,
     },
   ];
 
@@ -41,7 +41,7 @@ export class Film extends Component {
         />
         {isActive && (
           <Image
-            source={Icons.poster.buy_ticket}
+            source={Assets.poster.buy_ticket}
             style={{width: '90%', height: 40, position: 'absolute', bottom: 0}}
           />
         )}

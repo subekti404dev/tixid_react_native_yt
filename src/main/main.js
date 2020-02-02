@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {SafeAreaView, Text, Image, View} from 'react-native';
 import {Home} from '../home/home';
-import {Icons} from '../../assets';
+import {Assets} from '../../assets';
 import {Cinema} from '../cinema/cinema';
 import {Ticket} from '../ticket/ticket';
 import BottomNavigation, {
@@ -19,19 +19,19 @@ export class MainPage extends Component {
       key: 'beranda',
       label: 'Beranda',
       component: Home,
-      icon: Icons.home,
+      icon: Assets.home,
     },
     {
       key: 'bioskop',
       label: 'Bioskop',
       component: Cinema,
-      icon: Icons.cinema,
+      icon: Assets.cinema,
     },
     {
       key: 'tiket',
       label: 'Tiket',
       component: Ticket,
-      icon: Icons.ticket,
+      icon: Assets.ticket,
     },
   ];
 

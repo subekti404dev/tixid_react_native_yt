@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {SafeAreaView, Text, ScrollView} from 'react-native';
-import {Location} from './location';
+import {Location} from '../shared/location';
 import {Promo} from './promo';
 import {Headline} from './headline';
 import {Film} from './film';

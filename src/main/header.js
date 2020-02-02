@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, Image} from 'react-native';
-import {Icons} from '../../assets';
+import {Assets} from '../../assets';
 
 export class Header extends Component {
   render() {
@@ -20,14 +20,14 @@ export class Header extends Component {
           },
           shadowOpacity: 0.2,
           shadowRadius: 1.41,
-
+          zIndex: 2,
           elevation: 2,
         }}>
         <View style={{flex: 1}}>
-          <Image source={Icons.profile_icon} style={{width: 35, height: 35}} />
+          <Image source={Assets.profile_icon} style={{width: 35, height: 35}} />
         </View>
         <View style={{flex: 5, justifyContent: 'center', alignItems: 'center'}}>
-          <Image source={Icons.logo} style={{width: 100, height: 35}} />
+          <Image source={Assets.logo} style={{width: 100, height: 35}} />
         </View>
         <View style={{flex: 1}}></View>
       </View>

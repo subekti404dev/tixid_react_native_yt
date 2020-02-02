@@ -1,4 +1,4 @@
-export const Icons = {
+export const Assets = {
     home: {
         active: require('./beranda_active.png'),
         inactive: require('./beranda_inactive.png'),
@@ -32,5 +32,6 @@ export const Icons = {
         news_4: require('./news/4.png'),
         eye_icon: require('./news/eye_icon.png'),
         thumb_icon: require('./news/thumb_icon.png'),
-    }
+    },
+    arrow_right: require('./arrow_right.png'),
 }

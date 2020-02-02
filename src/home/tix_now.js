@@ -1,26 +1,26 @@
 import React, {Component} from 'react';
 import {View, Text, Image} from 'react-native';
-import {Icons} from '../../assets';
+import {Assets} from '../../assets';
 
 class TixNow extends Component {
   news = [
     {
       title: 'Rilis Trailer Baru, Karakter Han Kembali di Fast Farious 9',
-      img: Icons.news.news_1,
+      img: Assets.news.news_1,
     },
     {
       title:
         'Film Mekah I’m Coming, Film Terbaru Rizky Nazar dan Michelle Ziudith',
-      img: Icons.news.news_2,
+      img: Assets.news.news_2,
     },
     {
       title: 'Soundtrack Film Birds of Prey Didominasi Perempuan',
-      img: Icons.news.news_3,
+      img: Assets.news.news_3,
     },
     {
       title:
         'Tissa Biani Sempat Kesurupan Saat Syuting Film KKN di Desa Penari ',
-      img: Icons.news.news_4,
+      img: Assets.news.news_4,
     },
   ];
 
@@ -72,12 +72,12 @@ const Item = props => (
       </View>
       <View style={{flexDirection: 'row', marginTop: 10}}>
         <View style={{flex: 1, flexDirection: 'row'}}>
-          <Image source={Icons.news.eye_icon} style={{width: 20, height: 20}} />
+          <Image source={Assets.news.eye_icon} style={{width: 20, height: 20}} />
           <Text style={{color: 'grey', fontSize: 13}}>{' 1K'}</Text>
         </View>
         <View style={{flex: 1, flexDirection: 'row'}}>
           <Image
-            source={Icons.news.thumb_icon}
+            source={Assets.news.thumb_icon}
             style={{width: 20, height: 20}}
           />
           <Text style={{color: 'grey', fontSize: 13}}>{' 20'}</Text>
