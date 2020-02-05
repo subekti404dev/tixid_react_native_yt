@@ -34,4 +34,7 @@ export const Assets = {
         thumb_icon: require('./news/thumb_icon.png'),
     },
     arrow_right: require('./arrow_right.png'),
+    ticket_bg: require('./ticket_bg.png'),
+    qr: require('./qr.png'),
+
 }
